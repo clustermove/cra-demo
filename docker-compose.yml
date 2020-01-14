@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  fox-web:
+    build: .
+    image: lihroff/cra-demo
+    container_name: 'web'
+    ports:
+      - 80:8080
